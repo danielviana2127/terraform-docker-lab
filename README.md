@@ -286,4 +286,3 @@ terraform apply
 📜 Licença
 Este projeto está sob a licença MIT.
 Sinta-se livre para usar.
->>>>>>> 3856f987c6c17f6a150a2cb3f4f2285e0565db1c
