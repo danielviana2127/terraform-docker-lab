@@ -1,4 +1,88 @@
+############################################
+# Terraform - Arquivos e pastas geradas
+############################################
+
+# Diretório interno do Terraform (plugins, cache, módulos)
 .terraform/
+
+############################################
+# Estado do Terraform (NUNCA versionar)
+############################################
+
+# Arquivo principal de estado
 terraform.tfstate
+
+# Backup automático do estado
 terraform.tfstate.backup
 
+# Outros arquivos derivados do estado
+terraform.tfstate.*
+
+############################################
+# Arquivos de plano de execução
+############################################
+
+# Arquivos gerados pelo comando terraform plan -out
+*.tfplan
+
+############################################
+# Arquivos de variáveis (podem conter segredos)
+############################################
+
+# Variáveis locais (NUNCA versionar)
+*.tfvars
+*.tfvars.json
+
+############################################
+# Arquivos de configuração do Terraform CLI
+############################################
+
+# Configuração do Terraform no usuário
+.terraformrc
+terraform.rc
+
+############################################
+# Arquivos de override (substituem configs)
+############################################
+
+# Arquivos de override do Terraform
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+############################################
+# Logs de erro
+############################################
+
+# Arquivo de log em caso de crash
+crash.log
+
+############################################
+# Arquivos de sistema operacional
+############################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+############################################
+# Arquivos de IDEs e editores
+############################################
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ / PyCharm / WebStorm
+.idea/
+
+############################################
+# Arquivos temporários e de backup
+############################################
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
