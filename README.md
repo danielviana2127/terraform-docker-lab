@@ -181,6 +181,7 @@ Confirme com `yes` quando solicitado.
 Após o `apply`, o Terraform exibirá um output semelhante a:
 
 ```
+## 📤 Outputs
 nginx_url = http://localhost:8081
 ```
 
