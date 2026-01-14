@@ -8,6 +8,8 @@ Projeto prático de **Infraestrutura como Código (IaC)** utilizando **Terraform
 
 Este repositório demonstra **boas práticas de automação, versionamento e organização de infraestrutura**, com foco em **aprendizado, laboratório DevOps e portfólio profissional**.
 
+Este laboratório utiliza o Docker Engine local, não requer cloud.
+
 ---
 
 ## 🎯 Objetivos
@@ -193,6 +195,7 @@ Abra o navegador e acesse:
 Para destruir todos os recursos criados:
 
 ```bash
+## 🧹 Destroy
 terraform destroy
 ```
 
