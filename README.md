@@ -1,6 +1,5 @@
 # Terraform Docker Lab 🚀
 
-<<<<<<< HEAD
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-blueviolet)
 ![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -103,7 +102,6 @@ Este repositório demonstra boas práticas de automação, versionamento e organ
 ---
 
 ## ⚙️ Pré-requisitos
-<<<<<<< HEAD
 
 Antes de começar, certifique-se de ter instalado:
 
